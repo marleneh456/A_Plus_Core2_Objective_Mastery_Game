@@ -13,7 +13,13 @@ const QUESTIONS=[
       0
     ],
     "why": "NTFS is a Windows filesystem. ext4 and XFS are common Linux filesystems; APFS is Apple's filesystem.",
-    "tip": "NTFS \u2192 Windows; APFS \u2192 Apple; ext4/XFS \u2192 Linux."
+    "tip": "NTFS → Windows; APFS → Apple; ext4/XFS → Linux.",
+    "optionWhy": [
+      "Correct. Windows filesystem. NTFS is a Windows filesystem. ext4 and XFS are common Linux filesystems; APFS is Apple's filesystem.",
+      "Incorrect. ext4 is Linux filesystem; it does not answer this question. The correct answer is NTFS.",
+      "Incorrect. APFS is Apple filesystem; it does not answer this question. The correct answer is NTFS.",
+      "Incorrect. XFS is Linux filesystem; it does not answer this question. The correct answer is NTFS."
+    ]
   },
   {
     "domain": "1.0 Operating Systems",
@@ -29,7 +35,13 @@ const QUESTIONS=[
       0
     ],
     "why": "A clean install starts with a fresh OS installation rather than preserving the existing installation.",
-    "tip": "Clean = fresh start."
+    "tip": "Clean = fresh start.",
+    "optionWhy": [
+      "Correct. Fresh installation of an operating system. A clean install starts with a fresh OS installation rather than preserving the existing installation.",
+      "Incorrect. In-place upgrade is OS upgrade that preserves existing applications and files; it does not answer this question. The correct answer is Clean install.",
+      "Incorrect. Feature update is update that adds or changes OS features; it does not answer this question. The correct answer is Clean install.",
+      "Incorrect. Driver rollback is restores an earlier device driver version; it does not answer this question. The correct answer is Clean install."
+    ]
   },
   {
     "domain": "1.0 Operating Systems",
@@ -45,7 +57,13 @@ const QUESTIONS=[
       0
     ],
     "why": "BitLocker is the Windows drive-encryption feature listed in the objectives. FileVault is associated with macOS.",
-    "tip": "BitLocker = Windows drive encryption."
+    "tip": "BitLocker = Windows drive encryption.",
+    "optionWhy": [
+      "Correct. Windows full-drive encryption feature. BitLocker is the Windows drive-encryption feature listed in the objectives. FileVault is associated with macOS.",
+      "Incorrect. Spotlight is macOS search feature; it does not answer this question. The correct answer is BitLocker.",
+      "Incorrect. FileVault is macOS disk encryption; it does not answer this question. The correct answer is BitLocker.",
+      "Incorrect. Time Machine is macOS backup tool; it does not answer this question. The correct answer is BitLocker."
+    ]
   },
   {
     "domain": "1.0 Operating Systems",
@@ -61,7 +79,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Event Viewer (eventvwr.msc) is used to inspect Windows event logs.",
-    "tip": "Event Viewer = Windows logs."
+    "tip": "Event Viewer = Windows logs.",
+    "optionWhy": [
+      "Correct. Windows event log viewer. Event Viewer (eventvwr.msc) is used to inspect Windows event logs.",
+      "Incorrect. Disk Cleanup is tool that removes unnecessary files; it does not answer this question. The correct answer is Event Viewer.",
+      "Incorrect. Registry Editor is tool that edits Windows registry settings; it does not answer this question. The correct answer is Event Viewer.",
+      "Incorrect. File Explorer is tool for browsing files and folders; it does not answer this question. The correct answer is Event Viewer."
+    ]
   },
   {
     "domain": "1.0 Operating Systems",
@@ -77,7 +101,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Disk Management (diskmgmt.msc) manages storage disks and volumes.",
-    "tip": "diskmgmt.msc = Disk Management."
+    "tip": "diskmgmt.msc = Disk Management.",
+    "optionWhy": [
+      "Correct. Windows disk and partition management utility. Disk Management (diskmgmt.msc) manages storage disks and volumes.",
+      "Incorrect. Task Scheduler is tool that schedules automated tasks; it does not answer this question. The correct answer is Disk Management.",
+      "Incorrect. Certificate Manager is tool for viewing and managing certificates; it does not answer this question. The correct answer is Disk Management.",
+      "Incorrect. Performance Monitor is tool for examining performance counters; it does not answer this question. The correct answer is Disk Management."
+    ]
   },
   {
     "domain": "1.0 Operating Systems",
@@ -93,7 +123,13 @@ const QUESTIONS=[
       0
     ],
     "why": "ipconfig displays IP configuration. chkdsk checks disks, whoami shows the current identity, and sfc checks protected system files.",
-    "tip": "ipconfig = IP configuration."
+    "tip": "ipconfig = IP configuration.",
+    "optionWhy": [
+      "Correct. Windows IP configuration command. ipconfig displays IP configuration. chkdsk checks disks, whoami shows the current identity, and sfc checks protected system files.",
+      "Incorrect. chkdsk is Windows disk checking utility; it does not answer this question. The correct answer is ipconfig.",
+      "Incorrect. whoami is command that shows the current user; it does not answer this question. The correct answer is ipconfig.",
+      "Incorrect. sfc is Windows system file integrity checker; it does not answer this question. The correct answer is ipconfig."
+    ]
   },
   {
     "domain": "1.0 Operating Systems",
@@ -109,7 +145,13 @@ const QUESTIONS=[
       0
     ],
     "why": "System File Checker (sfc) checks protected Windows system files.",
-    "tip": "SFC = System File Checker."
+    "tip": "SFC = System File Checker.",
+    "optionWhy": [
+      "Correct. Windows system file integrity checker. System File Checker (sfc) checks protected Windows system files.",
+      "Incorrect. netstat is command that displays network connections and statistics; it does not answer this question. The correct answer is sfc.",
+      "Incorrect. format is command that formats a storage volume; it does not answer this question. The correct answer is sfc.",
+      "Incorrect. hostname is command that displays or sets the computer name; it does not answer this question. The correct answer is sfc."
+    ]
   },
   {
     "domain": "1.0 Operating Systems",
@@ -125,7 +167,13 @@ const QUESTIONS=[
       0
     ],
     "why": "ping tests IP reachability by sending ICMP echo requests.",
-    "tip": "ping = quick reachability test."
+    "tip": "ping = quick reachability test.",
+    "optionWhy": [
+      "Correct. Command that tests network reachability. ping tests IP reachability by sending ICMP echo requests.",
+      "Incorrect. dir does not perform the task described in the question. ping tests IP reachability by sending ICMP echo requests. The correct choice is ping.",
+      "Incorrect. rmdir does not perform the task described in the question. ping tests IP reachability by sending ICMP echo requests. The correct choice is ping.",
+      "Incorrect. winver does not perform the task described in the question. ping tests IP reachability by sending ICMP echo requests. The correct choice is ping."
+    ]
   },
   {
     "domain": "1.0 Operating Systems",
@@ -141,7 +189,13 @@ const QUESTIONS=[
       0
     ],
     "why": "The objectives list 'Choose what closing the lid does' under Windows Power Options.",
-    "tip": "Laptop lid behavior \u2192 Power Options."
+    "tip": "Laptop lid behavior → Power Options.",
+    "optionWhy": [
+      "Correct. The objectives list 'Choose what closing the lid does' under Windows Power Options.",
+      "Incorrect. Disk Management is Windows disk and partition management utility; it does not answer this question. The correct answer is Power Options.",
+      "Incorrect. Event Viewer is Windows event log viewer; it does not answer this question. The correct answer is Power Options.",
+      "Incorrect. Certificate Manager is tool for viewing and managing certificates; it does not answer this question. The correct answer is Power Options."
+    ]
   },
   {
     "domain": "1.0 Operating Systems",
@@ -157,7 +211,13 @@ const QUESTIONS=[
       0
     ],
     "why": "A VPN creates a protected connection to a remote network.",
-    "tip": "VPN = secure remote network connection."
+    "tip": "VPN = secure remote network connection.",
+    "optionWhy": [
+      "Correct. A VPN creates a protected connection to a remote network.",
+      "Incorrect. Workgroup only does not perform the task described in the question. A VPN creates a protected connection to a remote network. The correct choice is VPN.",
+      "Incorrect. Metered connection does not perform the task described in the question. A VPN creates a protected connection to a remote network. The correct choice is VPN.",
+      "Incorrect. Local loopback does not perform the task described in the question. A VPN creates a protected connection to a remote network. The correct choice is VPN."
+    ]
   },
   {
     "domain": "1.0 Operating Systems",
@@ -173,7 +233,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Time Machine is the macOS backup feature listed in the objectives.",
-    "tip": "Time Machine = macOS backups."
+    "tip": "Time Machine = macOS backups.",
+    "optionWhy": [
+      "Correct. MacOS backup tool. Time Machine is the macOS backup feature listed in the objectives.",
+      "Incorrect. BitLocker is Windows full-drive encryption feature; it does not answer this question. The correct answer is Time Machine.",
+      "Incorrect. Task Scheduler is tool that schedules automated tasks; it does not answer this question. The correct answer is Time Machine.",
+      "Incorrect. gpedit.msc does not perform the task described in the question. Time Machine is the macOS backup feature listed in the objectives. The correct choice is Time Machine."
+    ]
   },
   {
     "domain": "1.0 Operating Systems",
@@ -189,7 +255,13 @@ const QUESTIONS=[
       0
     ],
     "why": "FileVault is Apple's disk-encryption feature.",
-    "tip": "FileVault = Mac encryption."
+    "tip": "FileVault = Mac encryption.",
+    "optionWhy": [
+      "Correct. MacOS disk encryption. FileVault is Apple's disk-encryption feature.",
+      "Incorrect. BitLocker-To-Go does not perform the task described in the question. FileVault is Apple's disk-encryption feature. The correct choice is FileVault.",
+      "Incorrect. EFS is Windows Encrypting File System; it does not answer this question. The correct answer is FileVault.",
+      "Incorrect. UAC does not perform the task described in the question. FileVault is Apple's disk-encryption feature. The correct choice is FileVault."
+    ]
   },
   {
     "domain": "1.0 Operating Systems",
@@ -205,7 +277,13 @@ const QUESTIONS=[
       0
     ],
     "why": "ls lists directory contents. pwd prints the working directory, chmod changes permissions, and sudo runs a command with elevated privileges.",
-    "tip": "ls = list."
+    "tip": "ls = list.",
+    "optionWhy": [
+      "Correct. Linux command that lists directory contents. ls lists directory contents. pwd prints the working directory, chmod changes permissions, and sudo runs a command with elevated privileges.",
+      "Incorrect. pwd is Linux command that prints the current directory; it does not answer this question. The correct answer is ls.",
+      "Incorrect. chmod is Linux command that changes file permissions; it does not answer this question. The correct answer is ls.",
+      "Incorrect. sudo is Linux command that runs a command with elevated privileges; it does not answer this question. The correct answer is ls."
+    ]
   },
   {
     "domain": "1.0 Operating Systems",
@@ -221,7 +299,13 @@ const QUESTIONS=[
       0
     ],
     "why": "chmod changes file permissions.",
-    "tip": "chmod = change mode/permissions."
+    "tip": "chmod = change mode/permissions.",
+    "optionWhy": [
+      "Correct. Linux command that changes file permissions. chmod changes file permissions.",
+      "Incorrect. grep is command that searches text for matching patterns; it does not answer this question. The correct answer is chmod.",
+      "Incorrect. cat is Linux command that prints or joins file contents; it does not answer this question. The correct answer is chmod.",
+      "Incorrect. df does not perform the task described in the question. chmod changes file permissions. The correct choice is chmod."
+    ]
   },
   {
     "domain": "1.0 Operating Systems",
@@ -237,7 +321,13 @@ const QUESTIONS=[
       0
     ],
     "why": "apt is the package-management command listed alongside dnf in the objectives.",
-    "tip": "apt \u2192 Debian/Ubuntu-style package management."
+    "tip": "apt → Debian/Ubuntu-style package management.",
+    "optionWhy": [
+      "Correct. Debian/Ubuntu package manager used to install and update software. apt is the package-management command listed alongside dnf in the objectives.",
+      "Incorrect. dnf is package manager used on Fedora and other RPM-based Linux systems; it does not answer this question. The correct answer is apt.",
+      "Incorrect. dig is DNS lookup command, not a package installer; it does not answer this question. The correct answer is apt.",
+      "Incorrect. fsck is Linux filesystem consistency checker, not a package installer; it does not answer this question. The correct answer is apt."
+    ]
   },
   {
     "domain": "1.0 Operating Systems",
@@ -253,7 +343,13 @@ const QUESTIONS=[
       0
     ],
     "why": "The objectives specifically include application-to-OS compatibility among installation requirements.",
-    "tip": "Check requirements before installing."
+    "tip": "Check requirements before installing.",
+    "optionWhy": [
+      "Correct. The objectives specifically include application-to-OS compatibility among installation requirements.",
+      "Incorrect. SSID broadcast state does not perform the task described in the question. The objectives specifically include application-to-OS compatibility among installation requirements. The correct choice is Application-to-OS compatibility.",
+      "Incorrect. Printer duplex setting does not perform the task described in the question. The objectives specifically include application-to-OS compatibility among installation requirements. The correct choice is Application-to-OS compatibility.",
+      "Incorrect. UPS runtime only does not perform the task described in the question. The objectives specifically include application-to-OS compatibility among installation requirements. The correct choice is Application-to-OS compatibility."
+    ]
   },
   {
     "domain": "1.0 Operating Systems",
@@ -269,7 +365,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Cloud storage sync/folder settings keep cloud files synchronized across configured devices.",
-    "tip": "Cloud sync keeps files consistent across devices."
+    "tip": "Cloud sync keeps files consistent across devices.",
+    "optionWhy": [
+      "Correct. Cloud storage sync/folder settings keep cloud files synchronized across configured devices.",
+      "Incorrect. BIOS password does not perform the task described in the question. Cloud storage sync/folder settings keep cloud files synchronized across configured devices. The correct choice is Storage sync/folder settings.",
+      "Incorrect. Disk defragmentation does not perform the task described in the question. Cloud storage sync/folder settings keep cloud files synchronized across configured devices. The correct choice is Storage sync/folder settings.",
+      "Incorrect. Local loopback does not perform the task described in the question. Cloud storage sync/folder settings keep cloud files synchronized across configured devices. The correct choice is Storage sync/folder settings."
+    ]
   },
   {
     "domain": "2.0 Security",
@@ -285,7 +387,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Least privilege limits access to what is necessary.",
-    "tip": "Least privilege = only what you need."
+    "tip": "Least privilege = only what you need.",
+    "optionWhy": [
+      "Correct. Least privilege limits access to what is necessary.",
+      "Incorrect. Open access does not perform the task described in the question. Least privilege limits access to what is necessary. The correct choice is Principle of least privilege.",
+      "Incorrect. Default administrator use does not perform the task described in the question. Least privilege limits access to what is necessary. The correct choice is Principle of least privilege.",
+      "Incorrect. Tailgating does not perform the task described in the question. Least privilege limits access to what is necessary. The correct choice is Principle of least privilege."
+    ]
   },
   {
     "domain": "2.0 Security",
@@ -301,7 +409,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Multifactor authentication uses more than one authentication factor.",
-    "tip": "MFA = multiple factors."
+    "tip": "MFA = multiple factors.",
+    "optionWhy": [
+      "Correct. Authentication using multiple different factor types. Multifactor authentication uses more than one authentication factor.",
+      "Incorrect. SSO is sign-in method that accesses multiple services with one login; it does not answer this question. The correct answer is MFA.",
+      "Incorrect. ACL does not perform the task described in the question. Multifactor authentication uses more than one authentication factor. The correct choice is MFA.",
+      "Incorrect. DLP does not perform the task described in the question. Multifactor authentication uses more than one authentication factor. The correct choice is MFA."
+    ]
   },
   {
     "domain": "2.0 Security",
@@ -317,7 +431,13 @@ const QUESTIONS=[
       0
     ],
     "why": "BitLocker-To-Go is used for removable-drive encryption.",
-    "tip": "BitLocker-To-Go = removable drive encryption."
+    "tip": "BitLocker-To-Go = removable drive encryption.",
+    "optionWhy": [
+      "Correct. BitLocker-To-Go is used for removable-drive encryption.",
+      "Incorrect. UAC does not perform the task described in the question. BitLocker-To-Go is used for removable-drive encryption. The correct choice is BitLocker-To-Go.",
+      "Incorrect. Windows Hello does not perform the task described in the question. BitLocker-To-Go is used for removable-drive encryption. The correct choice is BitLocker-To-Go.",
+      "Incorrect. gpupdate is Windows command that refreshes Group Policy; it does not answer this question. The correct answer is BitLocker-To-Go."
+    ]
   },
   {
     "domain": "2.0 Security",
@@ -333,7 +453,13 @@ const QUESTIONS=[
       0
     ],
     "why": "UAC helps control elevation to administrative privileges in Windows.",
-    "tip": "UAC = control admin elevation."
+    "tip": "UAC = control admin elevation.",
+    "optionWhy": [
+      "Correct. UAC helps control elevation to administrative privileges in Windows.",
+      "Incorrect. Encrypt Wi-Fi traffic does not perform the task described in the question. UAC helps control elevation to administrative privileges in Windows. The correct choice is Prompt/control elevation for administrative actions.",
+      "Incorrect. Manage Linux packages does not perform the task described in the question. UAC helps control elevation to administrative privileges in Windows. The correct choice is Prompt/control elevation for administrative actions.",
+      "Incorrect. Back up macOS does not perform the task described in the question. UAC helps control elevation to administrative privileges in Windows. The correct choice is Prompt/control elevation for administrative actions."
+    ]
   },
   {
     "domain": "2.0 Security",
@@ -349,7 +475,13 @@ const QUESTIONS=[
       0
     ],
     "why": "WPA3 is the newer Wi-Fi Protected Access protocol listed alongside WPA2.",
-    "tip": "WPA3 is newer than WPA2."
+    "tip": "WPA3 is newer than WPA2.",
+    "optionWhy": [
+      "Correct. WPA3 is the newer Wi-Fi Protected Access protocol listed alongside WPA2.",
+      "Incorrect. WEP does not perform the task described in the question. WPA3 is the newer Wi-Fi Protected Access protocol listed alongside WPA2. The correct choice is WPA3.",
+      "Incorrect. HTTP is web transfer protocol without transport encryption; it does not answer this question. The correct answer is WPA3.",
+      "Incorrect. TKIP only does not perform the task described in the question. WPA3 is the newer Wi-Fi Protected Access protocol listed alongside WPA2. The correct choice is WPA3."
+    ]
   },
   {
     "domain": "2.0 Security",
@@ -365,7 +497,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Ransomware commonly encrypts or blocks access to data and demands payment.",
-    "tip": "Ransomware = ransom for data/access."
+    "tip": "Ransomware = ransom for data/access.",
+    "optionWhy": [
+      "Correct. Ransomware commonly encrypts or blocks access to data and demands payment.",
+      "Incorrect. Adware does not perform the task described in the question. Ransomware commonly encrypts or blocks access to data and demands payment. The correct choice is Ransomware.",
+      "Incorrect. Keylogger does not perform the task described in the question. Ransomware commonly encrypts or blocks access to data and demands payment. The correct choice is Ransomware.",
+      "Incorrect. Rootkit does not perform the task described in the question. Ransomware commonly encrypts or blocks access to data and demands payment. The correct choice is Ransomware."
+    ]
   },
   {
     "domain": "2.0 Security",
@@ -381,7 +519,13 @@ const QUESTIONS=[
       0
     ],
     "why": "A keylogger records keyboard input.",
-    "tip": "Keylogger = logs keys."
+    "tip": "Keylogger = logs keys.",
+    "optionWhy": [
+      "Correct. A keylogger records keyboard input.",
+      "Incorrect. Cryptominer does not perform the task described in the question. A keylogger records keyboard input. The correct choice is Keylogger.",
+      "Incorrect. Boot sector virus does not perform the task described in the question. A keylogger records keyboard input. The correct choice is Keylogger.",
+      "Incorrect. Adware does not perform the task described in the question. A keylogger records keyboard input. The correct choice is Keylogger."
+    ]
   },
   {
     "domain": "2.0 Security",
@@ -397,7 +541,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Spear phishing is targeted phishing directed at a specific person or group.",
-    "tip": "Spear phishing = targeted phishing."
+    "tip": "Spear phishing = targeted phishing.",
+    "optionWhy": [
+      "Correct. Spear phishing is targeted phishing directed at a specific person or group.",
+      "Incorrect. Shoulder surfing does not perform the task described in the question. Spear phishing is targeted phishing directed at a specific person or group. The correct choice is Spear phishing.",
+      "Incorrect. Tailgating does not perform the task described in the question. Spear phishing is targeted phishing directed at a specific person or group. The correct choice is Spear phishing.",
+      "Incorrect. Dumpster diving does not perform the task described in the question. Spear phishing is targeted phishing directed at a specific person or group. The correct choice is Spear phishing."
+    ]
   },
   {
     "domain": "2.0 Security",
@@ -413,7 +563,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Tailgating is entering a restricted area by following an authorized person.",
-    "tip": "Tailgating = follow someone through access control."
+    "tip": "Tailgating = follow someone through access control.",
+    "optionWhy": [
+      "Correct. Tailgating is entering a restricted area by following an authorized person.",
+      "Incorrect. Whaling does not perform the task described in the question. Tailgating is entering a restricted area by following an authorized person. The correct choice is Tailgating.",
+      "Incorrect. Smishing does not perform the task described in the question. Tailgating is entering a restricted area by following an authorized person. The correct choice is Tailgating.",
+      "Incorrect. SQL injection does not perform the task described in the question. Tailgating is entering a restricted area by following an authorized person. The correct choice is Tailgating."
+    ]
   },
   {
     "domain": "2.0 Security",
@@ -429,7 +585,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Smishing is SMS-based phishing.",
-    "tip": "SMS + phishing = smishing."
+    "tip": "SMS + phishing = smishing.",
+    "optionWhy": [
+      "Correct. Smishing is SMS-based phishing.",
+      "Incorrect. Vishing does not perform the task described in the question. Smishing is SMS-based phishing. The correct choice is Smishing.",
+      "Incorrect. Whaling does not perform the task described in the question. Smishing is SMS-based phishing. The correct choice is Smishing.",
+      "Incorrect. Spoofing does not perform the task described in the question. Smishing is SMS-based phishing. The correct choice is Smishing."
+    ]
   },
   {
     "domain": "2.0 Security",
@@ -445,7 +607,13 @@ const QUESTIONS=[
       0
     ],
     "why": "The objective sequence lists quarantining the infected system after investigating and verifying symptoms.",
-    "tip": "Verify \u2192 quarantine."
+    "tip": "Verify → quarantine.",
+    "optionWhy": [
+      "Correct. The objective sequence lists quarantining the infected system after investigating and verifying symptoms.",
+      "Incorrect. Immediately reconnect it to the LAN does not perform the task described in the question. The objective sequence lists quarantining the infected system after investigating and verifying symptoms. The correct choice is Quarantine the infected system.",
+      "Incorrect. Enable every startup item does not perform the task described in the question. The objective sequence lists quarantining the infected system after investigating and verifying symptoms. The correct choice is Quarantine the infected system.",
+      "Incorrect. Delete all backups does not perform the task described in the question. The objective sequence lists quarantining the infected system after investigating and verifying symptoms. The correct choice is Quarantine the infected system."
+    ]
   },
   {
     "domain": "2.0 Security",
@@ -461,7 +629,13 @@ const QUESTIONS=[
       0
     ],
     "why": "The objectives explicitly list disabling unused services as a workstation-hardening technique.",
-    "tip": "If you don't need the service, disable it."
+    "tip": "If you don't need the service, disable it.",
+    "optionWhy": [
+      "Correct. The objectives explicitly list disabling unused services as a workstation-hardening technique.",
+      "Incorrect. Enable every service does not perform the task described in the question. The objectives explicitly list disabling unused services as a workstation-hardening technique. The correct choice is Disable unused services.",
+      "Incorrect. Share administrator credentials does not perform the task described in the question. The objectives explicitly list disabling unused services as a workstation-hardening technique. The correct choice is Disable unused services.",
+      "Incorrect. Disable screen locks does not perform the task described in the question. The objectives explicitly list disabling unused services as a workstation-hardening technique. The correct choice is Disable unused services."
+    ]
   },
   {
     "domain": "2.0 Security",
@@ -477,7 +651,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Remote wipe is listed as a mobile-device security method.",
-    "tip": "Lost device \u2192 remote wipe."
+    "tip": "Lost device → remote wipe.",
+    "optionWhy": [
+      "Correct. Remote wipe is listed as a mobile-device security method.",
+      "Incorrect. SSID broadcast does not perform the task described in the question. Remote wipe is listed as a mobile-device security method. The correct choice is Remote wipe.",
+      "Incorrect. Disk defrag does not perform the task described in the question. Remote wipe is listed as a mobile-device security method. The correct choice is Remote wipe.",
+      "Incorrect. Port forwarding does not perform the task described in the question. Remote wipe is listed as a mobile-device security method. The correct choice is Remote wipe."
+    ]
   },
   {
     "domain": "2.0 Security",
@@ -493,7 +673,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Shredding is one of the physical destruction methods listed for hard drives.",
-    "tip": "Physical destruction is stronger than logical deletion."
+    "tip": "Physical destruction is stronger than logical deletion.",
+    "optionWhy": [
+      "Correct. Shredding is one of the physical destruction methods listed for hard drives.",
+      "Incorrect. Standard formatting does not perform the task described in the question. Shredding is one of the physical destruction methods listed for hard drives. The correct choice is Shredding.",
+      "Incorrect. Deleting files does not perform the task described in the question. Shredding is one of the physical destruction methods listed for hard drives. The correct choice is Shredding.",
+      "Incorrect. Emptying recycle bin does not perform the task described in the question. Shredding is one of the physical destruction methods listed for hard drives. The correct choice is Shredding."
+    ]
   },
   {
     "domain": "2.0 Security",
@@ -509,7 +695,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Changing default passwords is a listed router-security setting and removes known/default credentials.",
-    "tip": "New router \u2192 change default credentials."
+    "tip": "New router → change default credentials.",
+    "optionWhy": [
+      "Correct. Changing default passwords is a listed router-security setting and removes known/default credentials.",
+      "Incorrect. Monitor resolution does not perform the task described in the question. Changing default passwords is a listed router-security setting and removes known/default credentials. The correct choice is Default administrator password.",
+      "Incorrect. Printer orientation does not perform the task described in the question. Changing default passwords is a listed router-security setting and removes known/default credentials. The correct choice is Default administrator password.",
+      "Incorrect. Windows wallpaper does not perform the task described in the question. Changing default passwords is a listed router-security setting and removes known/default credentials. The correct choice is Default administrator password."
+    ]
   },
   {
     "domain": "2.0 Security",
@@ -525,7 +717,13 @@ const QUESTIONS=[
       0
     ],
     "why": "The browser-security objective specifically includes secure sites and valid certificates.",
-    "tip": "Secure site \u2192 check certificate validity."
+    "tip": "Secure site → check certificate validity.",
+    "optionWhy": [
+      "Correct. The browser-security objective specifically includes secure sites and valid certificates.",
+      "Incorrect. Desktop wallpaper does not perform the task described in the question. The browser-security objective specifically includes secure sites and valid certificates. The correct choice is Valid certificate.",
+      "Incorrect. CPU clock speed does not perform the task described in the question. The browser-security objective specifically includes secure sites and valid certificates. The correct choice is Valid certificate.",
+      "Incorrect. Printer queue does not perform the task described in the question. The browser-security objective specifically includes secure sites and valid certificates. The correct choice is Valid certificate."
+    ]
   },
   {
     "domain": "3.0 Software Troubleshooting",
@@ -541,7 +739,13 @@ const QUESTIONS=[
       0
     ],
     "why": "BSOD is explicitly listed under common Windows OS troubleshooting issues.",
-    "tip": "BSOD = Windows troubleshooting."
+    "tip": "BSOD = Windows troubleshooting.",
+    "optionWhy": [
+      "Correct. BSOD is explicitly listed under common Windows OS troubleshooting issues.",
+      "Incorrect. SOHO router hardening does not perform the task described in the question. BSOD is explicitly listed under common Windows OS troubleshooting issues. The correct choice is Common Windows OS issue.",
+      "Incorrect. Backup rotation does not perform the task described in the question. BSOD is explicitly listed under common Windows OS troubleshooting issues. The correct choice is Common Windows OS issue.",
+      "Incorrect. macOS productivity does not perform the task described in the question. BSOD is explicitly listed under common Windows OS troubleshooting issues. The correct choice is Common Windows OS issue."
+    ]
   },
   {
     "domain": "3.0 Software Troubleshooting",
@@ -557,7 +761,13 @@ const QUESTIONS=[
       0
     ],
     "why": "'No OS found' is a listed Windows troubleshooting symptom.",
-    "tip": "No OS found = boot/storage/OS troubleshooting path."
+    "tip": "No OS found = boot/storage/OS troubleshooting path.",
+    "optionWhy": [
+      "Correct. 'No OS found' is a listed Windows troubleshooting symptom.",
+      "Incorrect. Browser certificate only does not perform the task described in the question. 'No OS found' is a listed Windows troubleshooting symptom. The correct choice is Boot/OS issue.",
+      "Incorrect. Mobile autorotation does not perform the task described in the question. 'No OS found' is a listed Windows troubleshooting symptom. The correct choice is Boot/OS issue.",
+      "Incorrect. Printer toner does not perform the task described in the question. 'No OS found' is a listed Windows troubleshooting symptom. The correct choice is Boot/OS issue."
+    ]
   },
   {
     "domain": "3.0 Software Troubleshooting",
@@ -573,7 +783,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Time drift is explicitly listed as a common Windows OS issue.",
-    "tip": "Clock slowly wrong = time drift."
+    "tip": "Clock slowly wrong = time drift.",
+    "optionWhy": [
+      "Correct. Time drift is explicitly listed as a common Windows OS issue.",
+      "Incorrect. Low memory does not perform the task described in the question. Time drift is explicitly listed as a common Windows OS issue. The correct choice is Time drift.",
+      "Incorrect. BSOD does not perform the task described in the question. Time drift is explicitly listed as a common Windows OS issue. The correct choice is Time drift.",
+      "Incorrect. USB resource warning does not perform the task described in the question. Time drift is explicitly listed as a common Windows OS issue. The correct choice is Time drift."
+    ]
   },
   {
     "domain": "3.0 Software Troubleshooting",
@@ -589,7 +805,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Random reboots are listed among mobile OS/application troubleshooting symptoms.",
-    "tip": "Unexpected restarts = random reboots."
+    "tip": "Unexpected restarts = random reboots.",
+    "optionWhy": [
+      "Correct. Random reboots are listed among mobile OS/application troubleshooting symptoms.",
+      "Incorrect. Screen autorotation does not perform the task described in the question. Random reboots are listed among mobile OS/application troubleshooting symptoms. The correct choice is Random reboots.",
+      "Incorrect. Application update does not perform the task described in the question. Random reboots are listed among mobile OS/application troubleshooting symptoms. The correct choice is Random reboots.",
+      "Incorrect. NFC pairing does not perform the task described in the question. Random reboots are listed among mobile OS/application troubleshooting symptoms. The correct choice is Random reboots."
+    ]
   },
   {
     "domain": "3.0 Software Troubleshooting",
@@ -605,7 +827,13 @@ const QUESTIONS=[
       0
     ],
     "why": "The objective explicitly lists a screen that does not autorotate.",
-    "tip": "Rotation problem \u2192 autorotate troubleshooting."
+    "tip": "Rotation problem → autorotate troubleshooting.",
+    "optionWhy": [
+      "Correct. The objective explicitly lists a screen that does not autorotate.",
+      "Incorrect. Ransomware does not perform the task described in the question. The objective explicitly lists a screen that does not autorotate. The correct choice is Screen does not autorotate.",
+      "Incorrect. Certificate warning does not perform the task described in the question. The objective explicitly lists a screen that does not autorotate. The correct choice is Screen does not autorotate.",
+      "Incorrect. Slow profile load does not perform the task described in the question. The objective explicitly lists a screen that does not autorotate. The correct choice is Screen does not autorotate."
+    ]
   },
   {
     "domain": "3.0 Software Troubleshooting",
@@ -621,7 +849,13 @@ const QUESTIONS=[
       0
     ],
     "why": "High numbers of ads and fake security warnings are listed mobile security symptoms.",
-    "tip": "Ads + fake warnings = suspect malicious/unwanted software."
+    "tip": "Ads + fake warnings = suspect malicious/unwanted software.",
+    "optionWhy": [
+      "Correct. High numbers of ads and fake security warnings are listed mobile security symptoms.",
+      "Incorrect. Normal battery calibration does not perform the task described in the question. High numbers of ads and fake security warnings are listed mobile security symptoms. The correct choice is A security/malicious application issue.",
+      "Incorrect. A printer driver issue does not perform the task described in the question. High numbers of ads and fake security warnings are listed mobile security symptoms. The correct choice is A security/malicious application issue.",
+      "Incorrect. A healthy OS update does not perform the task described in the question. High numbers of ads and fake security warnings are listed mobile security symptoms. The correct choice is A security/malicious application issue."
+    ]
   },
   {
     "domain": "3.0 Software Troubleshooting",
@@ -637,7 +871,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Unofficial application sources are explicitly listed as a mobile security concern.",
-    "tip": "Use trusted app sources."
+    "tip": "Use trusted app sources.",
+    "optionWhy": [
+      "Correct. Unofficial application sources are explicitly listed as a mobile security concern.",
+      "Incorrect. Guaranteed encryption does not perform the task described in the question. Unofficial application sources are explicitly listed as a mobile security concern. The correct choice is Application source/security risk.",
+      "Incorrect. Automatic backup does not perform the task described in the question. Unofficial application sources are explicitly listed as a mobile security concern. The correct choice is Application source/security risk.",
+      "Incorrect. Improved patching does not perform the task described in the question. Unofficial application sources are explicitly listed as a mobile security concern. The correct choice is Application source/security risk."
+    ]
   },
   {
     "domain": "3.0 Software Troubleshooting",
@@ -653,7 +893,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Redirection is listed among browser-related PC security symptoms.",
-    "tip": "Unexpected redirects = investigate browser/security."
+    "tip": "Unexpected redirects = investigate browser/security.",
+    "optionWhy": [
+      "Correct. Redirection is listed among browser-related PC security symptoms.",
+      "Incorrect. Backup failure only does not perform the task described in the question. Redirection is listed among browser-related PC security symptoms. The correct choice is Browser-related security symptom.",
+      "Incorrect. Normal DNS caching does not perform the task described in the question. Redirection is listed among browser-related PC security symptoms. The correct choice is Browser-related security symptom.",
+      "Incorrect. Power-management feature does not perform the task described in the question. Redirection is listed among browser-related PC security symptoms. The correct choice is Browser-related security symptom."
+    ]
   },
   {
     "domain": "4.0 Operational Procedures",
@@ -669,7 +915,13 @@ const QUESTIONS=[
       0
     ],
     "why": "The objectives emphasize clear, concise issue descriptions, progress notes, and resolution documentation.",
-    "tip": "Good tickets tell the story: issue \u2192 progress \u2192 resolution."
+    "tip": "Good tickets tell the story: issue → progress → resolution.",
+    "optionWhy": [
+      "Correct. The objectives emphasize clear, concise issue descriptions, progress notes, and resolution documentation.",
+      "Incorrect. Only the user's first name does not perform the task described in the question. The objectives emphasize clear, concise issue descriptions, progress notes, and resolution documentation. The correct choice is Clear issue description and progress notes.",
+      "Incorrect. No resolution details does not perform the task described in the question. The objectives emphasize clear, concise issue descriptions, progress notes, and resolution documentation. The correct choice is Clear issue description and progress notes.",
+      "Incorrect. Unrelated personal notes does not perform the task described in the question. The objectives emphasize clear, concise issue descriptions, progress notes, and resolution documentation. The correct choice is Clear issue description and progress notes."
+    ]
   },
   {
     "domain": "4.0 Operational Procedures",
@@ -685,7 +937,13 @@ const QUESTIONS=[
       0
     ],
     "why": "A rollback plan is part of documented change-management processes.",
-    "tip": "Before changing, know how to undo it."
+    "tip": "Before changing, know how to undo it.",
+    "optionWhy": [
+      "Correct. A rollback plan is part of documented change-management processes.",
+      "Incorrect. Password policy does not perform the task described in the question. A rollback plan is part of documented change-management processes. The correct choice is Rollback plan.",
+      "Incorrect. AUP is acceptable use policy; it does not answer this question. The correct answer is Rollback plan.",
+      "Incorrect. Asset tag does not perform the task described in the question. A rollback plan is part of documented change-management processes. The correct choice is Rollback plan."
+    ]
   },
   {
     "domain": "4.0 Operational Procedures",
@@ -701,7 +959,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Sandbox testing is listed as part of documented change-management processes.",
-    "tip": "Test changes away from production first."
+    "tip": "Test changes away from production first.",
+    "optionWhy": [
+      "Correct. Sandbox testing is listed as part of documented change-management processes.",
+      "Incorrect. Only after users complain does not perform the task described in the question. Sandbox testing is listed as part of documented change-management processes. The correct choice is In a sandbox/testing environment.",
+      "Incorrect. Without a backup does not perform the task described in the question. Sandbox testing is listed as part of documented change-management processes. The correct choice is In a sandbox/testing environment.",
+      "Incorrect. During an unapproved outage does not perform the task described in the question. Sandbox testing is listed as part of documented change-management processes. The correct choice is In a sandbox/testing environment."
+    ]
   },
   {
     "domain": "4.0 Operational Procedures",
@@ -717,7 +981,13 @@ const QUESTIONS=[
       0
     ],
     "why": "A full backup copies all selected data.",
-    "tip": "Full = everything selected."
+    "tip": "Full = everything selected.",
+    "optionWhy": [
+      "Correct. A full backup copies all selected data.",
+      "Incorrect. Incremental does not perform the task described in the question. A full backup copies all selected data. The correct choice is Full.",
+      "Incorrect. Differential does not perform the task described in the question. A full backup copies all selected data. The correct choice is Full.",
+      "Incorrect. Synthetic full only does not perform the task described in the question. A full backup copies all selected data. The correct choice is Full."
+    ]
   },
   {
     "domain": "4.0 Operational Procedures",
@@ -733,7 +1003,13 @@ const QUESTIONS=[
       0
     ],
     "why": "The objectives include the 3-2-1 backup rule as a backup rotation concept.",
-    "tip": "3-2-1: 3 copies, 2 media types, 1 offsite."
+    "tip": "3-2-1: 3 copies, 2 media types, 1 offsite.",
+    "optionWhy": [
+      "Correct. The objectives include the 3-2-1 backup rule as a backup rotation concept.",
+      "Incorrect. One copy on one disk does not perform the task described in the question. The objectives include the 3-2-1 backup rule as a backup rotation concept. The correct choice is Multiple copies, different media, and an offsite copy.",
+      "Incorrect. Only cloud storage does not perform the task described in the question. The objectives include the 3-2-1 backup rule as a backup rotation concept. The correct choice is Multiple copies, different media, and an offsite copy.",
+      "Incorrect. Only daily incremental backups does not perform the task described in the question. The objectives include the 3-2-1 backup rule as a backup rotation concept. The correct choice is Multiple copies, different media, and an offsite copy."
+    ]
   },
   {
     "domain": "4.0 Operational Procedures",
@@ -749,7 +1025,13 @@ const QUESTIONS=[
       0
     ],
     "why": "The objectives explicitly say to disconnect power before repairing a PC.",
-    "tip": "Inside the PC \u2192 power off/disconnect first."
+    "tip": "Inside the PC → power off/disconnect first.",
+    "optionWhy": [
+      "Correct. The objectives explicitly say to disconnect power before repairing a PC.",
+      "Incorrect. Enable AutoRun does not perform the task described in the question. The objectives explicitly say to disconnect power before repairing a PC. The correct choice is Disconnect power.",
+      "Incorrect. Disable UAC does not perform the task described in the question. The objectives explicitly say to disconnect power before repairing a PC. The correct choice is Disconnect power.",
+      "Incorrect. Start a video call does not perform the task described in the question. The objectives explicitly say to disconnect power before repairing a PC. The correct choice is Disconnect power."
+    ]
   },
   {
     "domain": "4.0 Operational Procedures",
@@ -765,7 +1047,13 @@ const QUESTIONS=[
       0
     ],
     "why": "ESD straps and mats are listed safety tools for electrostatic discharge.",
-    "tip": "ESD strap protects sensitive electronics from static."
+    "tip": "ESD strap protects sensitive electronics from static.",
+    "optionWhy": [
+      "Correct. ESD straps and mats are listed safety tools for electrostatic discharge.",
+      "Incorrect. HDMI cable does not perform the task described in the question. ESD straps and mats are listed safety tools for electrostatic discharge. The correct choice is ESD strap.",
+      "Incorrect. Surge suppressor only does not perform the task described in the question. ESD straps and mats are listed safety tools for electrostatic discharge. The correct choice is ESD strap.",
+      "Incorrect. Printer ribbon does not perform the task described in the question. ESD straps and mats are listed safety tools for electrostatic discharge. The correct choice is ESD strap."
+    ]
   },
   {
     "domain": "4.0 Operational Procedures",
@@ -781,7 +1069,13 @@ const QUESTIONS=[
       0
     ],
     "why": "An uninterruptible power supply can provide temporary battery power during an outage.",
-    "tip": "UPS = backup power; surge suppressor = surge protection."
+    "tip": "UPS = backup power; surge suppressor = surge protection.",
+    "optionWhy": [
+      "Correct. An uninterruptible power supply can provide temporary battery power during an outage.",
+      "Incorrect. Surge suppressor only does not perform the task described in the question. An uninterruptible power supply can provide temporary battery power during an outage. The correct choice is UPS.",
+      "Incorrect. KVM does not perform the task described in the question. An uninterruptible power supply can provide temporary battery power during an outage. The correct choice is UPS.",
+      "Incorrect. Patch panel does not perform the task described in the question. An uninterruptible power supply can provide temporary battery power during an outage. The correct choice is UPS."
+    ]
   },
   {
     "domain": "4.0 Operational Procedures",
@@ -797,7 +1091,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Chain of custody documents who handled evidence and helps preserve its integrity.",
-    "tip": "Evidence needs a documented custody trail."
+    "tip": "Evidence needs a documented custody trail.",
+    "optionWhy": [
+      "Correct. Chain of custody documents who handled evidence and helps preserve its integrity.",
+      "Incorrect. It speeds up Wi-Fi does not perform the task described in the question. Chain of custody documents who handled evidence and helps preserve its integrity. The correct choice is It documents control and handling of evidence.",
+      "Incorrect. It installs applications does not perform the task described in the question. Chain of custody documents who handled evidence and helps preserve its integrity. The correct choice is It documents control and handling of evidence.",
+      "Incorrect. It changes file permissions does not perform the task described in the question. Chain of custody documents who handled evidence and helps preserve its integrity. The correct choice is It documents control and handling of evidence."
+    ]
   },
   {
     "domain": "4.0 Operational Procedures",
@@ -813,7 +1113,13 @@ const QUESTIONS=[
       0
     ],
     "why": "The objectives emphasize active listening, avoiding interruptions, and professional communication.",
-    "tip": "Listen first; clarify professionally."
+    "tip": "Listen first; clarify professionally.",
+    "optionWhy": [
+      "Correct. The objectives emphasize active listening, avoiding interruptions, and professional communication.",
+      "Incorrect. Argue about the cause does not perform the task described in the question. The objectives emphasize active listening, avoiding interruptions, and professional communication. The correct choice is Actively listen and avoid interrupting.",
+      "Incorrect. Dismiss the issue does not perform the task described in the question. The objectives emphasize active listening, avoiding interruptions, and professional communication. The correct choice is Actively listen and avoid interrupting.",
+      "Incorrect. Use as much jargon as possible does not perform the task described in the question. The objectives emphasize active listening, avoiding interruptions, and professional communication. The correct choice is Actively listen and avoid interrupting."
+    ]
   },
   {
     "domain": "4.0 Operational Procedures",
@@ -829,7 +1135,13 @@ const QUESTIONS=[
       0
     ],
     "why": "The scripting objective lists .ps1 as a script file type.",
-    "tip": "PowerShell \u2192 .ps1."
+    "tip": "PowerShell → .ps1.",
+    "optionWhy": [
+      "Correct. The scripting objective lists .ps1 as a script file type.",
+      "Incorrect. .bat only does not perform the task described in the question. The scripting objective lists .ps1 as a script file type. The correct choice is .ps1.",
+      "Incorrect. .dmg does not perform the task described in the question. The scripting objective lists .ps1 as a script file type. The correct choice is .ps1.",
+      "Incorrect. .pkg does not perform the task described in the question. The scripting objective lists .ps1 as a script file type. The correct choice is .ps1."
+    ]
   },
   {
     "domain": "4.0 Operational Procedures",
@@ -845,7 +1157,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Automated backups are explicitly listed as a scripting use case.",
-    "tip": "Scripts automate repeatable software tasks."
+    "tip": "Scripts automate repeatable software tasks.",
+    "optionWhy": [
+      "Correct. Automated backups are explicitly listed as a scripting use case.",
+      "Incorrect. Physically replacing RAM does not perform the task described in the question. Automated backups are explicitly listed as a scripting use case. The correct choice is Automated backups.",
+      "Incorrect. Cleaning toner from a printer does not perform the task described in the question. Automated backups are explicitly listed as a scripting use case. The correct choice is Automated backups.",
+      "Incorrect. Installing a heat sink does not perform the task described in the question. Automated backups are explicitly listed as a scripting use case. The correct choice is Automated backups."
+    ]
   },
   {
     "domain": "4.0 Operational Procedures",
@@ -861,7 +1179,13 @@ const QUESTIONS=[
       0
     ],
     "why": "Remote Desktop Protocol (RDP) is one of the listed remote access technologies.",
-    "tip": "RDP = graphical Windows remote desktop."
+    "tip": "RDP = graphical Windows remote desktop.",
+    "optionWhy": [
+      "Correct. Remote Desktop Protocol for remote graphical access. Remote Desktop Protocol (RDP) is one of the listed remote access technologies.",
+      "Incorrect. SSH only does not perform the task described in the question. Remote Desktop Protocol (RDP) is one of the listed remote access technologies. The correct choice is RDP.",
+      "Incorrect. SDS does not perform the task described in the question. Remote Desktop Protocol (RDP) is one of the listed remote access technologies. The correct choice is RDP.",
+      "Incorrect. EFS is Windows Encrypting File System; it does not answer this question. The correct answer is RDP."
+    ]
   },
   {
     "domain": "4.0 Operational Procedures",
@@ -877,7 +1201,13 @@ const QUESTIONS=[
       0
     ],
     "why": "The AI objective explicitly lists hallucinations as a limitation.",
-    "tip": "AI can sound confident and still be wrong\u2014verify outputs."
+    "tip": "AI can sound confident and still be wrong—verify outputs.",
+    "optionWhy": [
+      "Correct. The AI objective explicitly lists hallucinations as a limitation.",
+      "Incorrect. ESD does not perform the task described in the question. The AI objective explicitly lists hallucinations as a limitation. The correct choice is Hallucination.",
+      "Incorrect. Rollback does not perform the task described in the question. The AI objective explicitly lists hallucinations as a limitation. The correct choice is Hallucination.",
+      "Incorrect. Encryption does not perform the task described in the question. The AI objective explicitly lists hallucinations as a limitation. The correct choice is Hallucination."
+    ]
   },
   {
     "domain": "4.0 Operational Procedures",
@@ -893,7 +1223,13 @@ const QUESTIONS=[
       0
     ],
     "why": "The objectives list private vs. public AI considerations including data security, source, and privacy.",
-    "tip": "Public AI + company data \u2192 think privacy and policy first."
+    "tip": "Public AI + company data → think privacy and policy first.",
+    "optionWhy": [
+      "Correct. The objectives list private vs. public AI considerations including data security, source, and privacy.",
+      "Incorrect. Printer duplex does not perform the task described in the question. The objectives list private vs. public AI considerations including data security, source, and privacy. The correct choice is Data privacy/security.",
+      "Incorrect. Disk fragmentation does not perform the task described in the question. The objectives list private vs. public AI considerations including data security, source, and privacy. The correct choice is Data privacy/security.",
+      "Incorrect. Screen autorotation does not perform the task described in the question. The objectives list private vs. public AI considerations including data security, source, and privacy. The correct choice is Data privacy/security."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -909,7 +1245,13 @@ const QUESTIONS=[
       1
     ],
     "why": "UAC stands for User Account Control.",
-    "tip": "UAC = User Account Control."
+    "tip": "UAC = User Account Control.",
+    "optionWhy": [
+      "Incorrect. Remote Monitoring and Management is a different term, not the expansion asked for. The correct expansion is User Account Control.",
+      "Correct. UAC stands for User Account Control.",
+      "Incorrect. Configuration Management Database is a different term, not the expansion asked for. The correct expansion is User Account Control.",
+      "Incorrect. Service-level Agreement is a different term, not the expansion asked for. The correct expansion is User Account Control."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -925,7 +1267,13 @@ const QUESTIONS=[
       1
     ],
     "why": "MFA stands for Multifactor Authentication.",
-    "tip": "MFA = Multifactor Authentication."
+    "tip": "MFA = Multifactor Authentication.",
+    "optionWhy": [
+      "Incorrect. Extended Detection and Response is a different term, not the expansion asked for. The correct expansion is Multifactor Authentication.",
+      "Correct. MFA stands for Multifactor Authentication.",
+      "Incorrect. Mobile Device Management is a different term, not the expansion asked for. The correct expansion is Multifactor Authentication.",
+      "Incorrect. Configuration Management Database is a different term, not the expansion asked for. The correct expansion is Multifactor Authentication."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -941,7 +1289,13 @@ const QUESTIONS=[
       1
     ],
     "why": "DLP stands for Data Loss Prevention.",
-    "tip": "DLP = Data Loss Prevention."
+    "tip": "DLP = Data Loss Prevention.",
+    "optionWhy": [
+      "Incorrect. Security Assertions Markup Language is a different term, not the expansion asked for. The correct expansion is Data Loss Prevention.",
+      "Correct. DLP stands for Data Loss Prevention.",
+      "Incorrect. Service-level Agreement is a different term, not the expansion asked for. The correct expansion is Data Loss Prevention.",
+      "Incorrect. Extended Detection and Response is a different term, not the expansion asked for. The correct expansion is Data Loss Prevention."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -957,7 +1311,13 @@ const QUESTIONS=[
       1
     ],
     "why": "EDR stands for Endpoint Detection and Response.",
-    "tip": "EDR = Endpoint Detection and Response."
+    "tip": "EDR = Endpoint Detection and Response.",
+    "optionWhy": [
+      "Incorrect. Encrypting File System is a different term, not the expansion asked for. The correct expansion is Endpoint Detection and Response.",
+      "Correct. EDR stands for Endpoint Detection and Response.",
+      "Incorrect. End-of-life is a different term, not the expansion asked for. The correct expansion is Endpoint Detection and Response.",
+      "Incorrect. Configuration Management Database is a different term, not the expansion asked for. The correct expansion is Endpoint Detection and Response."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -973,7 +1333,13 @@ const QUESTIONS=[
       1
     ],
     "why": "EFS stands for Encrypting File System.",
-    "tip": "EFS = Encrypting File System."
+    "tip": "EFS = Encrypting File System.",
+    "optionWhy": [
+      "Incorrect. Business Email Compromise is a different term, not the expansion asked for. The correct expansion is Encrypting File System.",
+      "Correct. EFS stands for Encrypting File System.",
+      "Incorrect. Time-based One-time Password is a different term, not the expansion asked for. The correct expansion is Encrypting File System.",
+      "Incorrect. Acceptable Use Policy is a different term, not the expansion asked for. The correct expansion is Encrypting File System."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -989,7 +1355,13 @@ const QUESTIONS=[
       2
     ],
     "why": "EOL stands for End-of-life.",
-    "tip": "EOL = End-of-life."
+    "tip": "EOL = End-of-life.",
+    "optionWhy": [
+      "Incorrect. Encrypting File System is a different term, not the expansion asked for. The correct expansion is End-of-life.",
+      "Incorrect. Data Loss Prevention is a different term, not the expansion asked for. The correct expansion is End-of-life.",
+      "Correct. EOL stands for End-of-life.",
+      "Incorrect. Remote Monitoring and Management is a different term, not the expansion asked for. The correct expansion is End-of-life."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -1005,7 +1377,13 @@ const QUESTIONS=[
       2
     ],
     "why": "AUP stands for Acceptable Use Policy.",
-    "tip": "AUP = Acceptable Use Policy."
+    "tip": "AUP = Acceptable Use Policy.",
+    "optionWhy": [
+      "Incorrect. Remote Monitoring and Management is a different term, not the expansion asked for. The correct expansion is Acceptable Use Policy.",
+      "Incorrect. Security Assertions Markup Language is a different term, not the expansion asked for. The correct expansion is Acceptable Use Policy.",
+      "Correct. AUP stands for Acceptable Use Policy.",
+      "Incorrect. Grandfather-Father-Son is a different term, not the expansion asked for. The correct expansion is Acceptable Use Policy."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -1021,7 +1399,13 @@ const QUESTIONS=[
       1
     ],
     "why": "BEC stands for Business Email Compromise.",
-    "tip": "BEC = Business Email Compromise."
+    "tip": "BEC = Business Email Compromise.",
+    "optionWhy": [
+      "Incorrect. Mobile Device Management is a different term, not the expansion asked for. The correct expansion is Business Email Compromise.",
+      "Correct. BEC stands for Business Email Compromise.",
+      "Incorrect. User Account Control is a different term, not the expansion asked for. The correct expansion is Business Email Compromise.",
+      "Incorrect. Time-based One-time Password is a different term, not the expansion asked for. The correct expansion is Business Email Compromise."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -1037,7 +1421,13 @@ const QUESTIONS=[
       0
     ],
     "why": "BSOD stands for Blue Screen of Death.",
-    "tip": "BSOD = Blue Screen of Death."
+    "tip": "BSOD = Blue Screen of Death.",
+    "optionWhy": [
+      "Correct. BSOD stands for Blue Screen of Death.",
+      "Incorrect. Encrypting File System is a different term, not the expansion asked for. The correct expansion is Blue Screen of Death.",
+      "Incorrect. Multifactor Authentication is a different term, not the expansion asked for. The correct expansion is Blue Screen of Death.",
+      "Incorrect. Remote Desktop Protocol is a different term, not the expansion asked for. The correct expansion is Blue Screen of Death."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -1053,7 +1443,13 @@ const QUESTIONS=[
       0
     ],
     "why": "BYOD stands for Bring Your Own Device.",
-    "tip": "BYOD = Bring Your Own Device."
+    "tip": "BYOD = Bring Your Own Device.",
+    "optionWhy": [
+      "Correct. BYOD stands for Bring Your Own Device.",
+      "Incorrect. Single Sign-on is a different term, not the expansion asked for. The correct expansion is Bring Your Own Device.",
+      "Incorrect. Configuration Management Database is a different term, not the expansion asked for. The correct expansion is Bring Your Own Device.",
+      "Incorrect. Mobile Device Management is a different term, not the expansion asked for. The correct expansion is Bring Your Own Device."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -1069,7 +1465,13 @@ const QUESTIONS=[
       2
     ],
     "why": "CMDB stands for Configuration Management Database.",
-    "tip": "CMDB = Configuration Management Database."
+    "tip": "CMDB = Configuration Management Database.",
+    "optionWhy": [
+      "Incorrect. Time-based One-time Password is a different term, not the expansion asked for. The correct expansion is Configuration Management Database.",
+      "Incorrect. Remote Desktop Protocol is a different term, not the expansion asked for. The correct expansion is Configuration Management Database.",
+      "Correct. CMDB stands for Configuration Management Database.",
+      "Incorrect. Single Sign-on is a different term, not the expansion asked for. The correct expansion is Configuration Management Database."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -1085,7 +1487,13 @@ const QUESTIONS=[
       0
     ],
     "why": "GFS stands for Grandfather-Father-Son.",
-    "tip": "GFS = Grandfather-Father-Son."
+    "tip": "GFS = Grandfather-Father-Son.",
+    "optionWhy": [
+      "Correct. GFS stands for Grandfather-Father-Son.",
+      "Incorrect. Encrypting File System is a different term, not the expansion asked for. The correct expansion is Grandfather-Father-Son.",
+      "Incorrect. Standard Operating Procedure is a different term, not the expansion asked for. The correct expansion is Grandfather-Father-Son.",
+      "Incorrect. Extended Detection and Response is a different term, not the expansion asked for. The correct expansion is Grandfather-Father-Son."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -1101,7 +1509,13 @@ const QUESTIONS=[
       0
     ],
     "why": "MDM stands for Mobile Device Management.",
-    "tip": "MDM = Mobile Device Management."
+    "tip": "MDM = Mobile Device Management.",
+    "optionWhy": [
+      "Correct. MDM stands for Mobile Device Management.",
+      "Incorrect. Grandfather-Father-Son is a different term, not the expansion asked for. The correct expansion is Mobile Device Management.",
+      "Incorrect. Blue Screen of Death is a different term, not the expansion asked for. The correct expansion is Mobile Device Management.",
+      "Incorrect. Endpoint Detection and Response is a different term, not the expansion asked for. The correct expansion is Mobile Device Management."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -1117,7 +1531,13 @@ const QUESTIONS=[
       1
     ],
     "why": "RDP stands for Remote Desktop Protocol.",
-    "tip": "RDP = Remote Desktop Protocol."
+    "tip": "RDP = Remote Desktop Protocol.",
+    "optionWhy": [
+      "Incorrect. Standard Operating Procedure is a different term, not the expansion asked for. The correct expansion is Remote Desktop Protocol.",
+      "Correct. RDP stands for Remote Desktop Protocol.",
+      "Incorrect. Endpoint Detection and Response is a different term, not the expansion asked for. The correct expansion is Remote Desktop Protocol.",
+      "Incorrect. Data Loss Prevention is a different term, not the expansion asked for. The correct expansion is Remote Desktop Protocol."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -1133,7 +1553,13 @@ const QUESTIONS=[
       1
     ],
     "why": "RMM stands for Remote Monitoring and Management.",
-    "tip": "RMM = Remote Monitoring and Management."
+    "tip": "RMM = Remote Monitoring and Management.",
+    "optionWhy": [
+      "Incorrect. Acceptable Use Policy is a different term, not the expansion asked for. The correct expansion is Remote Monitoring and Management.",
+      "Correct. RMM stands for Remote Monitoring and Management.",
+      "Incorrect. Single Sign-on is a different term, not the expansion asked for. The correct expansion is Remote Monitoring and Management.",
+      "Incorrect. Endpoint Detection and Response is a different term, not the expansion asked for. The correct expansion is Remote Monitoring and Management."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -1149,7 +1575,13 @@ const QUESTIONS=[
       0
     ],
     "why": "SAML stands for Security Assertions Markup Language.",
-    "tip": "SAML = Security Assertions Markup Language."
+    "tip": "SAML = Security Assertions Markup Language.",
+    "optionWhy": [
+      "Correct. SAML stands for Security Assertions Markup Language.",
+      "Incorrect. Service-level Agreement is a different term, not the expansion asked for. The correct expansion is Security Assertions Markup Language.",
+      "Incorrect. Acceptable Use Policy is a different term, not the expansion asked for. The correct expansion is Security Assertions Markup Language.",
+      "Incorrect. Grandfather-Father-Son is a different term, not the expansion asked for. The correct expansion is Security Assertions Markup Language."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -1165,7 +1597,13 @@ const QUESTIONS=[
       3
     ],
     "why": "SLA stands for Service-level Agreement.",
-    "tip": "SLA = Service-level Agreement."
+    "tip": "SLA = Service-level Agreement.",
+    "optionWhy": [
+      "Incorrect. Remote Monitoring and Management is a different term, not the expansion asked for. The correct expansion is Service-level Agreement.",
+      "Incorrect. Encrypting File System is a different term, not the expansion asked for. The correct expansion is Service-level Agreement.",
+      "Incorrect. Single Sign-on is a different term, not the expansion asked for. The correct expansion is Service-level Agreement.",
+      "Correct. SLA stands for Service-level Agreement."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -1181,7 +1619,13 @@ const QUESTIONS=[
       1
     ],
     "why": "SOP stands for Standard Operating Procedure.",
-    "tip": "SOP = Standard Operating Procedure."
+    "tip": "SOP = Standard Operating Procedure.",
+    "optionWhy": [
+      "Incorrect. Extended Detection and Response is a different term, not the expansion asked for. The correct expansion is Standard Operating Procedure.",
+      "Correct. SOP stands for Standard Operating Procedure.",
+      "Incorrect. Mobile Device Management is a different term, not the expansion asked for. The correct expansion is Standard Operating Procedure.",
+      "Incorrect. Time-based One-time Password is a different term, not the expansion asked for. The correct expansion is Standard Operating Procedure."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -1197,7 +1641,13 @@ const QUESTIONS=[
       1
     ],
     "why": "SSO stands for Single Sign-on.",
-    "tip": "SSO = Single Sign-on."
+    "tip": "SSO = Single Sign-on.",
+    "optionWhy": [
+      "Incorrect. Encrypting File System is a different term, not the expansion asked for. The correct expansion is Single Sign-on.",
+      "Correct. SSO stands for Single Sign-on.",
+      "Incorrect. Remote Monitoring and Management is a different term, not the expansion asked for. The correct expansion is Single Sign-on.",
+      "Incorrect. Acceptable Use Policy is a different term, not the expansion asked for. The correct expansion is Single Sign-on."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -1213,7 +1663,13 @@ const QUESTIONS=[
       2
     ],
     "why": "TOTP stands for Time-based One-time Password.",
-    "tip": "TOTP = Time-based One-time Password."
+    "tip": "TOTP = Time-based One-time Password.",
+    "optionWhy": [
+      "Incorrect. Bring Your Own Device is a different term, not the expansion asked for. The correct expansion is Time-based One-time Password.",
+      "Incorrect. Service-level Agreement is a different term, not the expansion asked for. The correct expansion is Time-based One-time Password.",
+      "Correct. TOTP stands for Time-based One-time Password.",
+      "Incorrect. Extended Detection and Response is a different term, not the expansion asked for. The correct expansion is Time-based One-time Password."
+    ]
   },
   {
     "domain": "Acronym Challenge",
@@ -1229,6 +1685,12 @@ const QUESTIONS=[
       2
     ],
     "why": "XDR stands for Extended Detection and Response.",
-    "tip": "XDR = Extended Detection and Response."
+    "tip": "XDR = Extended Detection and Response.",
+    "optionWhy": [
+      "Incorrect. Remote Desktop Protocol is a different term, not the expansion asked for. The correct expansion is Extended Detection and Response.",
+      "Incorrect. Configuration Management Database is a different term, not the expansion asked for. The correct expansion is Extended Detection and Response.",
+      "Correct. XDR stands for Extended Detection and Response.",
+      "Incorrect. Business Email Compromise is a different term, not the expansion asked for. The correct expansion is Extended Detection and Response."
+    ]
   }
 ];
